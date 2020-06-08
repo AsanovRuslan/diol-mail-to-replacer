@@ -1,0 +1,28 @@
+{
+    "name": "asanovr/diol-mail-to-replacer",
+    "description": "Mail to replacer",
+    "minimum-stability": "dev",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Asanov Ruslan",
+            "email": "bioforge91@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^7.14"
+    },
+    "autoload" : {
+        "psr-4" :{
+            "AsanovR\\DiolMailToReplacer\\" : "src"
+        }
+    },
+    "extra" : {
+        "laravel" : {
+            "providers" : [
+                "AsanovR\\DiolMailToReplacer\\ServiceProvider"
+            ]
+        }
+    }
+}
